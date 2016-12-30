@@ -1,6 +1,6 @@
 {
   "name": "tree-kill-sync",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Synchronous tree-kill",
   "main": "index.js",
   "author": "Aleksey Timchenko",
