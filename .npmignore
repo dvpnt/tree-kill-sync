@@ -1,0 +1,10 @@
+test/
+coverage/
+.nyc_output/
+.nycrc
+*.log
+.eslintrc.json
+.eslintignore
+.npmignore
+.gitignore
+.travis.yml

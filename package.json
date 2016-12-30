@@ -1,0 +1,31 @@
+{
+  "name": "tree-kill-sync",
+  "version": "0.0.1",
+  "description": "Synchronous tree-kill",
+  "main": "index.js",
+  "author": "Aleksey Timchenko",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha --reporter spec --bail",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvpnt/tree-kill-sync.git"
+  },
+  "keywords": [
+    "tree-kill",
+    "kill",
+    "pid",
+    "ps"
+  ],
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "eslint": "3.5.0",
+    "eslint-config-dvpnt": "1.3.0",
+    "expect.js": "0.3.1",
+    "mocha": "3.2.0",
+    "nyc": "10.0.0"
+  }
+}
