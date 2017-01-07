@@ -16,7 +16,7 @@ exports.spawnTree = function(callback) {
 exports.waitForDead = function(pid, callback) {
 	var id = setInterval(function() {
 		try {
-			process.kill(pid, 'SIGCHLD');
+			process.kill(pid, 0);
 		} catch (err) {
 			if (err.code === 'ESRCH') {
 				clearInterval(id);
